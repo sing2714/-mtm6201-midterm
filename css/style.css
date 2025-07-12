@@ -47,6 +47,7 @@ a {
 
 ul {
     list-style: none;
+    display: flex;
 }
 
 /* Button Styles */
@@ -121,6 +122,7 @@ nav {
 
 .main-menu li a {
     display: inline-block;
+    display: flex;
     text-decoration: none;
     color: var(--white);
     text-align: center;
@@ -156,7 +158,7 @@ nav {
     top: 20px;
     right: 20px;
 }
-#check {display: block;}
+#check {display:none;}
 
 /* logo animation */
 nav .logo {
@@ -179,13 +181,14 @@ nav .logo {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
 .hero-content {
     text-align: center;
     color: var(--white);
+    margin-top: 150px;
 }
 
 .hero-content h1 {
